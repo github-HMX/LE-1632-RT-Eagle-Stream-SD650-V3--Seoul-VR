@@ -1,0 +1,120 @@
+{
+    "displaylayers": [ "Enclosure", "Enclosure_2", "Enclosure_GP", "Internals", "NEW_Cooling_Stand", "Rack_ON_OFF_1", "Rack_Reflection", "Rack_back_Extra_part", "Rear_Enclosure_Pipe", "Rear_Port_Type_A", "Rear_Port_Type_B", "Rear_Port_Type_C", "Reflection_ON_OFF", "SD650", "TOP_Cover" ],
+    "positions": {
+        "Render_Cam_F1_CPU": {
+            "doffocusdist": 5.000000,
+            "fovy": 13.685547,
+            "pos": [ -3.141593, 1.570796, -26.223309, -0.907040, 392.958862 ],
+            "target": [ 0.0, 0.0, 0.0 ],
+            "time": 1000
+        },
+        "Render_Cam_F1_FL": {
+            "doffocusdist": 5.000000,
+            "fovy": 48.455490,
+            "pos": [ -2.508149, 0.398639, -14.366447, 6.534279, 171.179657 ],
+            "target": [ 0.0, 0.0, 0.0 ],
+            "time": 1000
+        },
+        "Render_Cam_F1_Rack_Fl": {
+            "doffocusdist": 5.000000,
+            "fovy": 39.597752,
+            "pos": [ 0.411894, 0.006973, -27.358753, 0.478853, 189.407471 ],
+            "target": [ 0.0, 0.0, 0.0 ],
+            "time": 1000
+        },
+        "Render_Cam_F1_Rack_JD": {
+            "doffocusdist": 5.000000,
+            "fovy": 13.685547,
+            "pos": [ 0.000000, -0.000000, -10.348117, 1.146426, 484.589325 ],
+            "target": [ 0.0, 0.0, 0.0 ],
+            "time": 1000
+        },
+        "Render_Cam_F1_Rack_RL": {
+            "doffocusdist": 5.000000,
+            "fovy": 20.407948,
+            "pos": [ -0.795886, 0.104712, -9.101883, -2.107893, 398.703430 ],
+            "target": [ 0.0, 0.0, 0.0 ],
+            "time": 1000
+        },
+        "Render_Cam_F1_Rear": {
+            "doffocusdist": 5.000000,
+            "fovy": 13.685547,
+            "pos": [ 0.034950, 0.006977, -6.232085, 1.849188, 416.554810 ],
+            "target": [ 0.0, 0.0, 0.0 ],
+            "time": 1000
+        },
+        "Render_Cam_F1_Top": {
+            "doffocusdist": 5.000000,
+            "fovy": 20.407948,
+            "pos": [ -4.712389, 1.570796, -15.445264, 6.356098, 539.635864 ],
+            "target": [ 0.0, 0.0, 0.0 ],
+            "time": 1000
+        },
+        "Render_Cam_F1_Top_02": {
+            "doffocusdist": 5.000000,
+            "fovy": 20.407948,
+            "pos": [ -4.712389, 1.570796, -11.741077, 7.263019, 426.452484 ],
+            "target": [ 0.0, 0.0, 0.0 ],
+            "time": 1000
+        },
+        "back": {
+            "doffocusdist": 5.000000,
+            "fovy": 54.432129,
+            "pos": [ 0.000000, -0.000000, 20.904112, -1.015786, -1000.099976 ],
+            "target": [ 0.0, 0.0, 0.0 ],
+            "time": 1000
+        },
+        "hmxBack": {
+            "fovy": 48.455502,
+            "pos": [ -3.141593, 0.000000, 0.000000, 0.000000, 407.605560 ],
+            "target": [ 0.0, 0.0, 0.0 ],
+            "time": 0
+        },
+        "hmxFront": {
+            "fovy": 48.455502,
+            "pos": [ 0.000000, 0.000000, 0.000000, 0.000000, 407.605560 ],
+            "target": [ 0.0, 0.0, 0.0 ],
+            "time": 0
+        },
+        "hmxHero": {
+            "fovy": 48.455502,
+            "pos": [ -2.508149, 0.398640, -14.366425, 6.534294, 171.179688 ],
+            "target": [ 0.0, 0.0, 0.0 ],
+            "time": 0
+        },
+        "hmxLeft": {
+            "fovy": 48.455502,
+            "pos": [ -1.570796, 0.000000, 0.000000, 0.000000, 407.605560 ],
+            "target": [ 0.0, 0.0, 0.0 ],
+            "time": 0
+        },
+        "hmxRight": {
+            "fovy": 48.455502,
+            "pos": [ -4.712389, 0.000000, 0.000000, 0.000000, 407.605560 ],
+            "target": [ 0.0, 0.0, 0.0 ],
+            "time": 0
+        },
+        "hmxTop": {
+            "fovy": 48.455502,
+            "pos": [ 0.000000, 1.570796, 0.000000, 0.000000, 407.605560 ],
+            "target": [ 0.0, 0.0, 0.0 ],
+            "time": 0
+        },
+        "left": {
+            "doffocusdist": 5.000000,
+            "fovy": 54.432129,
+            "pos": [ -4.712389, -0.000000, -6.858606, 4.904931, -1000.099976 ],
+            "target": [ 0.0, 0.0, 0.0 ],
+            "time": 1000
+        },
+        "persp1": {
+            "doffocusdist": 5.000000,
+            "fovy": 54.432129,
+            "pos": [ -1.490514, -0.445729, 45.338329, -23.747520, -25.732468 ],
+            "target": [ 0.0, 0.0, 0.0 ],
+            "time": 1000
+        }
+    },
+    "states": [ "Enclosure_OFF", "Enclosure_ON", "Enclosure_2_OFF", "Enclosure_2_ON", "Enclosure_GP_OFF", "Enclosure_GP_ON", "internals_off", "internals_on", "NEW_Cooling_Stand_OFF", "NEW_Cooling_Stand_ON", "Rack_OFF", "Rack_ON", "Rack_Reflection_off", "Rack_Reflection_on", "Rack_back_Extra_Off", "Rack_back_Extra_part_On", "Rear_Enclosure_Pipe_Off", "Rear_Enclosure_Pipe_On", "Rear_Port_Type_A_off", "Rear_Port_Type_A_on", "Rear_Port_Type_B_Off", "Rear_Port_Type_B_On", "Rear_Port_Type_C_off", "Rear_Port_Type_C_on", "Reflection_OFF", "Reflection_On", "SD650_off", "SD650_on", "TOP_Cover_off", "TOP_Cover_on" ],
+    "ver": "v2.0.547"
+}

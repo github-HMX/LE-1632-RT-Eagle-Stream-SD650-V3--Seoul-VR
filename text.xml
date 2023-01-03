@@ -1,0 +1,849 @@
+<?xml version="1.0" encoding="UTF-8"?>
+   <note>
+      <loader>
+        <subheading>How to Use this Tour</subheading>
+         <greyLeftTop>For information, click a hotspot on the product.</greyLeftTop>
+         <greyLeftBottom>Or choose a numbered feature button</greyLeftBottom>
+         <greyRightTop>To explore the product in 3D, use these mouse controls.</greyRightTop>
+         <greyRightBottom>Or use the 3D controls below.</greyRightBottom>
+         <loaderOpen>Open</loaderOpen>
+         <loaderZoom>Zoom</loaderZoom>
+         <loaderRotate>Rotate</loaderRotate>
+         <loaderMove>move</loaderMove> 
+         <leftMouse>Left mouse : </leftMouse>
+         <rotateMouse>rotate</rotateMouse>
+         <scrollMouse>Scroll mouse : </scrollMouse>
+         <zoomMouse>Zoom</zoomMouse>
+         <bothMouse>Right mouse : </bothMouse>
+         <pan>Pan</pan>
+      </loader>
+   	<message>
+        <onloadCopy>
+            <point1text1>
+            <![CDATA[ 
+                Lenovo ThinkSystem SD650 V3 is based on our next generation Lenovo Neptune™ direct water cooling platform leveraging four 4th Gen Intel® Xeon® Scalable processors. Our market-leading Direct Water Cooling (DWC) design allows for extreme performance in very dense packaging. This dual-node tray is designed for high performance computing (HPC), large-scale cloud, heavy simulations and modeling workloads.             ]]>
+          </point1text1>
+            <!-- <point1text2>
+            <![CDATA[4 SXM GPU / 8 SFF configuration shown
+            ]]>
+            </point1text2> -->
+        </onloadCopy>
+        
+<!--
+            <textFadeClass_01>        
+                <firstChild>Transform IT</firstChild>
+                <secondchild>into a Demand-driven Delivery Engine</secondchild>
+            </textFadeClass_01>
+        
+            <textFadeClass_02>        
+                <firstChild>Rapid Delivery</firstChild>
+                <secondchild>with Turn-key, End-to-end Automation</secondchild>
+            </textFadeClass_02>
+                
+            <textFadeClass_03>        
+                <firstChild>Easy to Manage</firstChild>
+                <secondchild>without Specialized Skills</secondchild>
+            </textFadeClass_03>
+            <textFadeClass_04>        
+                <firstChild>Simple to Scale</firstChild>
+                <secondchild>with Adaptable, Flexible Capacity</secondchild>
+            </textFadeClass_04>
+            <textFadeClass_05>        
+                <firstChild>Low Maintenance</firstChild>
+                <secondchild>with Automated, Managed Updates</secondchild>
+            </textFadeClass_05>
+        
+-->
+<!--
+          <point0text1>
+            <![CDATA[Whisper quiet acoustics
+            ]]>
+         </point0text1>
+         <point0text2>
+            <![CDATA[ Continuous operation at 45°C
+            ]]>
+         </point0text2>
+         <point0text3>
+            <![CDATA[Energy Star compliance
+            ]]>
+         </point0text3>
+         <point0text4>
+             <![CDATA[High efficiency, redundant, and <br><span id="overviewtx1"></span>hot-swap power supply options
+            ]]>
+         </point0text4>
+-->
+      </message>
+
+<!--
+      <pointtext1>
+         <point1text2>
+            <![CDATA[4 SXM GPU / 8 SFF configuration shown
+            ]]>
+         </point1text2>
+</pointtext1>
+-->
+    <!--     <point1text2>
+            <![CDATA[ Turnkey Cloud Experience
+            ]]>
+         </point1text2>
+         <point1text3>
+            <![CDATA[<span>Stack</span> Secure in Your Data Center
+            ]]>
+         </point1text3>
+         <point1text4>
+            <![CDATA[Independently Scalable Capacity
+            ]]>
+         </point1text4>
+           <point1text5>
+            <![CDATA[Application <span>Infrastructure</span> Composability
+            ]]>
+         </point1text5>
+           <point1text6>
+            <![CDATA[Software-defined Agility
+            ]]>
+         </point1text6>
+           <point1text7>
+            <![CDATA[Network Interconnect<span>Adaptive Overlay Network</span>
+            ]]>
+         </point1text7>
+           <point1text8>
+            <![CDATA[Compute Block<span>Spark Hypervisor</span>
+            ]]>
+         </point1text8>
+           <point1text9>
+            <![CDATA[Storage Block<span>Elastic Flash</span>
+            ]]>
+         </point1text9>
+          <point1text10>
+            <![CDATA[Network
+            ]]>
+         </point1text10>
+          <point1text11>
+            <![CDATA[Compute
+            ]]>
+         </point1text11>
+          <point1text12>
+            <![CDATA[Storage
+            ]]>
+         </point1text12>
+          
+         <point1text13>
+            <![CDATA[Unified Multi-site Management
+            ]]>
+         </point1text13>
+         <point1text14>
+            <![CDATA[Fully Integrated & Automated
+            ]]>
+         </point1text14>
+         <point1text15>
+            <![CDATA[Multi-tenant, Self-service
+            ]]>
+         </point1text15>
+         <point1text16>
+            <![CDATA[Application Marketplace
+            ]]>
+         </point1text16>  
+      </pointtext1>
+-->
+         <point2text>
+         
+         <point2text1>
+             <![CDATA[ 
+             ]]>
+         </point2text1>
+                     
+         <point2text2>
+             <![CDATA[ USB 3.0 
+             ]]>
+         </point2text2>
+                     
+         <point2text3> 
+             <![CDATA[ XClarity Controller USB 
+             ]]>
+         </point2text3>
+                     
+         <point2text4>
+             <![CDATA[ Power button/status LED
+             ]]>
+         </point2text4>
+                     
+         <point2text5>
+             <![CDATA[ System ID LED 
+             ]]>
+         </point2text5>
+                     
+         <point2text6>
+             <![CDATA[ System error LED
+             ]]>
+         </point2text6>
+                     
+         <point2text7>
+             <![CDATA[ Network activity LED
+             ]]>
+         </point2text7>
+          
+        <point2text8>
+             <![CDATA[ Optional VGA connector
+             ]]>
+         </point2text8>
+
+        <point2text9>
+           <![CDATA[ 
+             ]]>
+         </point2text9>
+        
+      </point2text>
+       
+<point3text>
+          <headingText>
+             <![CDATA[FRONT VIEW
+             ]]>
+         </headingText>
+         <point3text1>
+             <![CDATA[ Water Inlet
+             ]]>
+         </point3text1>
+         <point3text2>
+             <![CDATA[ Water outlet
+
+             ]]>
+         </point3text2>
+            <point3text3>
+             <![CDATA[ 2x 3rd Gen Intel® Xeon® Scalable Family processors with liquid-cooled cold plates 
+             ]]>
+         </point3text3>
+         <point3text4>
+             <![CDATA[ 4x NVIDIA® A100 GPUs with liquid-cooled plates
+             ]]>
+         </point3text4>
+         <point3text5>
+             <![CDATA[ Pull-out information tag
+             ]]>
+         </point3text5>
+         <point3text6>
+             <![CDATA[ Up to 24x 2.5-inch hot-swap drive bays: 24x SAS/SATA or 24x AnyBay or 24x NVMe
+             ]]>
+         </point3text6>
+        
+       </point3text>   
+         
+         
+      <point4text>
+      <point4heading>
+      <![CDATA[
+        Designed to run two of the highest core count 4th generation Intel® Xeon® Scalable processors, the SD650 V3 powers through demanding HPC workloads. Because water cooling removes more heat more efficiently, CPUs can run in accelerated mode non-stop, getting up to 10% greater performance from the CPU.
+        ]]>
+      </point4heading>
+          
+         <point4text1>
+             <![CDATA[ 2x Intel® Xeon® Scalable processors with liquid-cooled cold plates
+
+             ]]>
+         </point4text1>
+         <point4text2>
+            <![CDATA[ Water outlet
+
+            ]]>
+         </point4text2>
+          <point4text3>
+            <![CDATA[ 2x Intel® Xeon® Scalable processors with liquid-cooled cold plates
+
+            ]]>
+         </point4text3>
+          <point4text4>
+            <![CDATA[Water inlet
+            ]]>
+         </point4text4>
+          <point4text5>
+            <![CDATA[ 16x TruDDR5 DIMM slots<br/> (8 per processor)
+
+            ]]>
+         </point4text5>
+          <point4text6>
+             <![CDATA[ PCIe Gen 5 slot
+
+             ]]>
+         </point4text6>  
+         <point4text7>
+             <![CDATA[ 2x SSDs (shown) or PCIe adapter
+             ]]>
+         </point4text7>  
+         <point4text8>
+             <![CDATA[ Intel CPU #4 + 12x DIMMs
+             ]]>
+         </point4text8> 
+        <point4text9>
+             <![CDATA[ 16x TruDDR5 DIMM slots<br/> (8 per processor)
+             ]]>
+         </point4text9>
+          <point4text10>
+             <![CDATA[ PCIe Gen 5 slot
+             ]]>
+         </point4text10>  
+          <point4text11>
+             <![CDATA[ 2x SSDs (shown) or PCIe adapter
+             ]]>
+         </point4text11> 
+
+    </point4text>
+       <point5text>
+         <point5heading>
+             <![CDATA[ This uniquely designed water cooling system removes heat constantly from all major components including CPUs, memory DIMMs, drives and PCIe adapters for maximum performance. 
+             ]]>
+         </point5heading>
+         <point5text1>
+            <![CDATA[ Dripless quick connects allow nodes to be removed without disrupting other nodes in the chassis
+
+
+            ]]>
+         </point5text1>
+         <point5text2>
+            <![CDATA[ Parallel water loops ensure <5°C ΔT between CPUs for maximum performance
+
+            ]]>
+         </point5text2>
+          <point5text3>
+            <![CDATA[ Direct water cooling for 2.5 inch NVMe drives and PCIe adapters  
+
+            ]]>
+         </point5text3>
+          <point5text4>
+            <![CDATA[ Direct water cooling for memory DIMMs with insulated slots 
+
+            ]]>
+         </point5text4>
+          <point5text5>
+            <![CDATA[ Direct water cooling for memory DIMMs with insulated slots
+
+            ]]>
+         </point5text5>
+          <point5text6>
+            <![CDATA[ 1x liquid cooled M.2 NVMe SSD for both operating system boot and storage functions
+            ]]>
+         </point5text6>
+          <point5text7>
+            <![CDATA[  1x liquid cooled M.2 NVMe SSD for both operating system boot and storage functions
+            ]]>
+         </point5text7>
+          <point5text9>
+            <![CDATA[  ID button & LEDs
+            ]]>
+         </point5text9>
+          <point5text10>
+            <![CDATA[  NMI
+            ]]>
+         </point5text10>
+          <point5text12>
+            <![CDATA[ OCP 3.0 Ethernet slot
+            ]]>
+         </point5text12>
+         <point5text13>
+            <![CDATA[  Non-functional slot
+
+            ]]>
+         </point5text13> 
+         
+      </point5text>
+
+      <point6text>
+         <point6heading>
+             <![CDATA[ 
+              Lenovo brings a decade of experience in direct water cooling with a meticulous focus on low-pressure drop and best-in-class reliability. Copper and brazed connections guarantee leak-free operations at extreme scale and stainless steel dripless quick connects for rapid node removal without disruption. The superior water loop design enables up to 45°C inlet temperatures for highest energy reuse efficiency. Parallel loops ensure temperature uniformity of less than 5°C, minimizing thermal jitter and maximizing application performance.
+             ]]>
+         </point6heading>
+         <point6text1>
+            <![CDATA[ 2x PCIe x8 FHHL slots 
+            ]]>
+         </point6text1>
+         <point6text2>
+            <![CDATA[ 2x 7mm hot-swap SATA or NVMe drives
+            ]]>
+         </point6text2>
+          <point6text3>
+            <![CDATA[ 2x PCIe x8 LP slots
+            ]]>
+         </point6text3>
+          <point6text4>
+            <![CDATA[  2x hot-swap power supplies
+            ]]>
+         </point6text4>
+          <point6text5>
+            <![CDATA[  Serial port
+            ]]>
+         </point6text5>
+          <point6text6>
+            <![CDATA[  Video port
+            ]]>
+         </point6text6>
+          <point6text7>
+            <![CDATA[  2x USB 3.1 G1 ports
+            ]]>
+         </point6text7>
+          <point6text8>
+            <![CDATA[  XCC Mgmt port
+            ]]>
+         </point6text8>
+          <point6text9>
+            <![CDATA[  ID button & LEDs
+            ]]>
+         </point6text9>
+          <point6text10>
+            <![CDATA[  NMI
+            ]]>
+         </point6text10>
+          <point6text11>
+            <![CDATA[ OCP 3.0 Ethernet slot
+            ]]>
+         </point6text11>
+
+      </point6text>
+       
+       
+       <point7text>
+        <point7headingText>
+             <![CDATA[Interior – 2 Processor, 24 DIMM
+             ]]>
+         </point7headingText>
+        <point7text1>            
+            <![CDATA[ Designed to run four of the highest core-count 4th generation Intel® Xeon® Scalable processors, the SD650 V3 powers through demanding HPC workloads. ]]>
+        </point7text1>   
+        <point7text2>            
+            <![CDATA[ Drive backplanes
+            ]]>
+        </point7text2>
+        <point7text3>            
+            <![CDATA[ Intel CPU #1 + 12x DIMMs 
+            ]]>
+        </point7text3>
+        <point7text4>            
+            <![CDATA[ Onboard SATA
+            ]]>
+        </point7text4>
+        <point7text5>            
+            <![CDATA[ Riser 2 slot Slots 5 & 6
+            ]]>
+        </point7text5>
+        <point7text6>            
+            <![CDATA[ 7mm drive connector 
+            ]]>
+        </point7text6>
+        <point7text7>            
+            <![CDATA[Slots 7 & 8
+            ]]>
+        </point7text7>
+        <point7text8>            
+            <![CDATA[Intel CPU #2 + 12x DIMMs
+            ]]>
+        </point7text8>
+        <point7text9>            
+            <![CDATA[Intrusion switch
+            ]]>
+        </point7text9>
+        <point7text10>            
+            <![CDATA[Riser 1 Slots 1-3
+            ]]>
+        </point7text10>
+        <point7text11>            
+            <![CDATA[4x UPI connectors for expansion tray
+            ]]>
+        </point7text11>
+        <point7text13>            
+            <![CDATA[6x N+1 redundant hot-swap fans
+            ]]>
+        </point7text13> 
+        <point7text14>            
+            <![CDATA[
+Because water cooling removes more heat more efficiently, CPUs can run in accelerated mode non-stop, getting up to 10% greater performance from the CPU.            ]]>
+        </point7text14>   
+       
+      </point7text>
+       
+      
+      <point8text>
+         <point8headingText>
+             <![CDATA[
+                The enclosure offers a power supply choice for customers –either air-cooled power supplies that run with high heat recovery of up to 90%, or water-cooledpower suppliesthat provides extreme heat recovery of up to 95%.   
+                          ]]>
+         </point8headingText>  
+         <point8text1>
+              <![CDATA[ DWC High Heat Recovery <span>6 or 9 air-cool power supplies</span>
+              ]]>
+         </point8text1>
+        <point8text2>
+             <![CDATA[ DWC Extreme Heat Recovery <span>2 or 3 DWC power supplies</span>
+             ]]>
+         </point8text2>
+        <point8text3>
+             <![CDATA[ Processor and Memory Expansion Tray
+             ]]>
+         </point8text3>
+        <point8text4>
+             <![CDATA[ DWC High Heat Recovery <span>2 or 3 DWC power supplies</span>
+             ]]>
+         </point8text4>
+         <point8text5>
+             <![CDATA[ PCIe x 16 for NVMe
+             ]]>
+         </point8text5>
+         <point8text6>
+             <![CDATA[ Reserved (PCIe x32)
+             ]]>
+         </point8text6> 
+         <point8text7>
+             <![CDATA[ PCIe x 16 to Slot 5
+             ]]>
+         </point8text7>  
+         <point8text8>
+             <![CDATA[ PCIe x 16 for NVMe
+             ]]>
+         </point8text8>  
+         <point8text9>
+             <![CDATA[ Intel CPU #4 + 12x DIMMs
+             ]]>
+         </point8text9>  
+     
+      </point8text>
+       
+    <point9text>
+           <point9text1>
+             <![CDATA[ One DW612S Enclosure accomdates up to 6 water-cooled trays. Its ultra-dense design delivers a single node per U of rack space, providing three times the density of an equivalent air-cooled product.
+             ]]>
+         </point9text1>
+        <point9text2>
+            <![CDATA[  Bay 11
+             ]]>
+       </point9text2>
+        <point9text3>
+            <![CDATA[  Bay 9
+             ]]>
+       </point9text3>
+        <point9text4>
+            <![CDATA[  Bay 7
+             ]]>
+       </point9text4>
+        <point9text5>
+            <![CDATA[  Bay 5
+             ]]>
+       </point9text5>
+         <point9text6>
+            <![CDATA[  Bay 3
+             ]]>
+       </point9text6>
+        <point9text7>
+            <![CDATA[  Bay 1
+             ]]>
+       </point9text7>
+        <point9text8>
+            <![CDATA[  Bay 2
+             ]]>
+       </point9text8>
+        <point9text9>
+            <![CDATA[  Bay 4
+             ]]>
+       </point9text9>
+        <point9text10>
+            <![CDATA[  Bay 6
+             ]]>
+       </point9text10>
+        <point9text11>
+            <![CDATA[  Bay 8
+             ]]>
+       </point9text11>
+         <point9text12>
+            <![CDATA[  Bay 10
+             ]]>
+       </point9text12>
+        <point9text13>
+            <![CDATA[  Bay 12
+             ]]>
+       </point9text13>
+    </point9text>
+       
+      <point10text>
+        <headingText>
+             <![CDATA[
+             ]]>
+         </headingText>
+        <point10text1>            
+            <![CDATA[
+            Lenovo HPC & AI Software Stack provides our HPC customers with a fully tested and supported open-source software stack to enable their administrators and users for the most effective and environmentally sustainable consumption of Lenovo Supercomputing capabilities.  
+                      ]]>
+        </point10text1>
+        <point10text2>            
+            <![CDATA[All-New management engine
+            ]]>
+        </point10text2>
+        <point10text3>            
+            <![CDATA[Elegant User Experience
+            ]]>
+        </point10text3>
+        <point10text4>            
+            <![CDATA[Modernized interoperability
+            ]]>
+        </point10text4>
+        <point10text5>            
+            <![CDATA[Vastly Improved performance
+            ]]>
+        </point10text5>
+        <point10text6>            
+            <![CDATA[Common in all ThinkSystem servers
+            ]]>
+        </point10text6>
+        <point10text7> 
+			  <![CDATA[ 
+                The modular Lenovo HPC & AI Software Stack offers specialized components for development, such as Intel OneAPI, NVIDIA SDK and CUDA-X AI, alongside energy optimization and job scheduling tools. Our Confluent management system and LiCO Web portal provide an interface designed to abstract the users from the complexity of HPC cluster orchestration and AI workloads management, making open-source HPC software consumable for every customer. The stack includes system management, provisioning and monitoring tools for the HPC clusters.
+                 				]]>
+			</point10text7>
+        <point10text8>            
+            <![CDATA[Built on Redfish-compliant APIs
+            ]]>
+        </point10text8>
+        <point10text9>            
+            <![CDATA[2x faster boot time to OS screen
+            ]]>
+        </point10text9>
+        <point10text10>            
+            <![CDATA[6x faster firmware updates
+            ]]>
+        </point10text10>
+      </point10text>
+
+      <point12text>
+         <point12headingText>
+              <![CDATA[ The dripless connectors attach to the manifold in the rear of the chassis as shown.               
+              ]]>
+
+         </point12headingText>
+         <point12text2>
+             <![CDATA[ Also supports  up to 24 Intel® Optane™ Persistent Memory 200 Series modules designed for cloud and databases, in-memory analytics and content delivery networks.
+             ]]>
+         </point12text2>
+      </point12text> 
+
+        <point13text>
+         <point13text1>
+            <![CDATA[ Simplify your IT transformation and grow your business your way
+            <span>In today's world,  change can happen  overnight.  Lenovo's Solution  Services Group  offers a complete suite of answers to even your  most  challenging business questions.</span>
+            ]]>
+         </point13text1>
+         <point13text2>
+            <![CDATA[ Solution Services
+            ]]>
+         </point13text2>
+         <point13text3>
+            <![CDATA[ Implementation Services
+            ]]>
+         </point13text3>
+          <point13text4>
+            <![CDATA[ Support Services
+            ]]>
+          </point13text4>
+         <point13text7>
+            <![CDATA[ Lenovo TruScale Infrastructure Services
+            ]]>
+          </point13text7>
+          
+          <point13text6>
+            <![CDATA[ Our proven experts guide you on your digital transformation and help you reach your unique strategic and business goals through:
+            ]]>
+         </point13text6>
+         <point13text11>
+            <![CDATA[ Accelerate time to productivity to focus on your customers and growing business.
+            ]]>
+         </point13text11>
+
+         <point13_li1_1>
+            <![CDATA[ Workshops
+            ]]>
+         </point13_li1_1>
+         <point13_li1_2>
+            <![CDATA[ Assessments
+            ]]>
+         </point13_li1_2>
+         <point13_li1_3>
+            <![CDATA[ Designs
+            ]]>
+         </point13_li1_3>
+       <point13_li1_4>
+            <![CDATA[ Asset Recovery
+            ]]>
+         </point13_li1_4>
+          
+         <point13_li2_1>
+            <![CDATA[ Hardware Installation
+            ]]>
+         </point13_li2_1>
+         <point13_li2_2>
+            <![CDATA[ Deployment
+            ]]>
+         </point13_li2_2>  
+         <point13_li2_3>
+            <![CDATA[ Migration and Expansion
+            ]]>
+         </point13_li2_3>  
+            <point13_li2_4>
+            <![CDATA[  Factory Integration
+            ]]>
+         </point13_li2_4> 
+         <point13_li3_1>
+            <![CDATA[ Premier Support
+            ]]>
+         </point13_li3_1>
+         <point13_li3_2>
+            <![CDATA[ Managed Services
+            ]]>
+         </point13_li3_2>  
+         <point13_li3_3>
+            <![CDATA[ Preconfigured Support
+            ]]>
+         </point13_li3_3> 
+         <point13_li3_4>
+            <![CDATA[ Technical Account Management
+            ]]>
+         </point13_li3_4>
+         <point13_li3_5>
+            <![CDATA[ Health Check Services
+            ]]>
+         </point13_li3_5>
+      
+         <point13_li4_1>
+            <![CDATA[ The Pay-For-What-You-Use Data Center
+            ]]>
+         </point13_li4_1>
+         <point13_li4_2>
+            <![CDATA[ Hardware Environments Tailored To Your Specific Business Needs
+            ]]>
+         </point13_li4_2>
+      </point13text>
+       
+       <point14text>
+          <headingText>
+             <![CDATA[ 
+             ]]>
+         </headingText>
+         <point14text1>
+             <![CDATA[ Water Inlet
+             ]]>
+         </point14text1>
+         <point14text2>
+             <![CDATA[ Water outlet
+
+             ]]>
+         </point14text2>
+            <point14text3>
+             <![CDATA[ 2x Intel® Xeon® Platinum processor with liquid-cooled cold plates
+             ]]>
+         </point14text3>
+         <point14text4>
+             <![CDATA[ 2x Intel® Xeon® Platinum processor with liquid-cooled cold plates
+             ]]>
+         </point14text4>
+         <point14text5>
+             <![CDATA[ Pull-out information tag
+             ]]>
+         </point14text5>
+         <point14text6>
+             <![CDATA[ Up to 24x 2.5-inch hot-swap drive bays: 24x SAS/SATA or 24x AnyBay or 24x NVMe
+             ]]>
+         </point14text6>
+        
+       </point14text>
+       
+       <point15text>
+        <point15headingText>
+             <![CDATA[Lenovo ThinkSystem SD650-N V2 is based on our fourth generation Lenovo Neptune™ direct water cooling platform leveraging two 3rd Gen Intel® Xeon® Scalable processors with NVIDIA HGX A100 4-GPU acceleration and NVIDIA HDR InfiniBand networking. The combination of NVIDIA breakthrough acceleration technology with the market-leading Lenovo water cooling solution results in extreme performance in very dense packaging.
+             ]]>
+         </point15headingText>
+        <point15text1>            
+            <![CDATA[ 25 Gb SFP28 Ethernet port with shared NIC feature for Lenovo XClarity Controller
+            ]]>
+<!--            Power supplies, controller and dripless water manifold connections are in the rear.-->
+        </point15text1>
+        <point15text2>            
+            <![CDATA[ 25 Gb SFP28 Ethernet port with shared NIC feature for Lenovo XClarity Controller
+
+            ]]>
+        </point15text2>
+        <point15text3>            
+            <![CDATA[ Front operator panel 
+
+            ]]>
+        </point15text3>
+        <point15text4>            
+            <![CDATA[ Console breakout connector 
+ 
+            ]]>
+        </point15text4>
+        <point15text5>            
+            <![CDATA[External LCD diagnostics handset connector
+            ]]>
+        </point15text5>
+        <point15text6>            
+            <![CDATA[Right Node
+            ]]>
+        </point15text6>
+        <point15text7>            
+            <![CDATA[ Left Node
+            ]]>
+        </point15text7>
+        <point15text8>            
+            <![CDATA[ 1Gb RJ45 Ethernet port
+            ]]>
+        </point15text8>
+     
+      </point15text>
+       
+        <point16text>
+         <point16headingText>
+            <![CDATA[ The water cooling manifolds connect to a Cooling Distribution Unit (CDU) from outside or inside the rack combined with dripless disconnects deliver a reliable and highly efficient cooling subsystem for demanding workloads.            
+             ]]>
+         </point16headingText>
+         <point16text1>
+             <![CDATA[ With a growing awareness of carbon footprint and the  impact on global warming,  energy efficiency  is now  an important  consideration when  planning  and operating data centers.
+             ]]>
+         </point16text1>
+         <point16text2>
+             <![CDATA[To allow  customers  to have  a fully  liquid cooled compute  solution,  Lenovo now  offers liquid cooled power supplies. This  now results in up to 95% removal  of the  heat generated by the  servers using  liquid cooling.
+             ]]>
+         </point16text2>
+         <point16text3>
+             <![CDATA[With direct liquid cool systems,  heat is more efficiently  removed from  the  data center, requiring less power on the  cooling side and enabling concepts  for energy  re-use.]]>
+         </point16text3>
+      </point16text> 
+       
+       <point2text>
+         <point2text1> 
+              <![CDATA[ 
+            Lenovo ThinkSystem SD650 V3 is delivered as fully integrated Lenovo Scalable Infrastucture (LeSI) solution. It is pre-integrated, pre-cabled and pre-loaded with the best recipe and optionally an OS-image and tested at the rack level to ensure a reliable delivery and minimize installation time in the customer data center. Each Lenovo rack contains up to six DW612S enclosures. The water cooling mainfolds connect to a Cooling Distribution Unit (CDU) from outside or inside the rack. 
+              ]]>
+         </point2text1>
+      </point2text> 
+      
+      <point17text>
+         <point17text1>            
+            <![CDATA[
+           The 6U ThinkSystem DW612S Enclosure accommodates up to six compute trays for either the ThinkSystem SD650 V3 (up to 12x) or the SD650-I V3 (5X).  Customers can mix the systems within the chassis for maximum flexibility.
+           ]]>
+        </point17text1>
+        <point17text2>            
+            <![CDATA[
+            The Lenovo ThinkSystem SD650 V3 server and the DW612S Direct Water Cooling (DWC) enclosure deliver super-charged performance and unparalleled energy savings.
+            ]]>
+        </point17text2>
+        <point17text3>            
+            <![CDATA[ <br>The system supports up to 50°C water intake and can remove up to 95% of the internal heat at lower temperatures.]]>
+        </point17text3>
+        <point17text4> 
+        <![CDATA[Customers can save up to 40% on energy costs over non-optimized air-cooled systems that require constant fan usage.]]>
+        </point17text4>
+      </point17text>
+
+      <buttons>
+         <backText>BACK</backText>
+         <zoomText>ZOOM</zoomText>
+         <roatateText>ROTATE</roatateText>
+         <moveText>MOVE</moveText>
+         <divOpen>Open</divOpen>
+         <divClose>Close</divClose>
+      </buttons>
+   </note>

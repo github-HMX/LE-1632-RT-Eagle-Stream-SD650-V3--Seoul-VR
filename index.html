@@ -1,0 +1,662 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN">
+<html>
+
+<head>
+   <title>Thinksystem SD650 V3</title>
+   <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable = no">
+   <script type="text/javascript" src="js/browserDetect.js"></script>
+   <script type="text/javascript" src="js/InfinityRT_Navigation.js"></script>
+   <script type="text/javascript" src="js/RT_Navigation_Extension.js"></script>
+   <!--		<script type="text/javascript" src="RT_Analytics.js"></script>-->
+   <script type="text/javascript" src="js/ui.js"></script>
+   <script type="text/javascript" src="model_gl/SSE.js"></script>
+   <script type="text/javascript" src="model_gl/ctm.js"></script>
+   <script type="text/javascript" src="model_gl/lzma.js"></script>
+   <script type="text/javascript" src="js/jquery-1.8.2.min.js"></script>
+   <!--<script type="text/javascript" src="js/jquery-ui-1.8.24.custom.min.js"></script>-->
+   
+   <script type="text/javascript" src="js/sb.js"></script>
+   <script type="text/javascript" src="js/jquery-ui.min.js"></script>
+   <link type="text/css" href="css/jquery-ui-1.10.3.custom.css" rel="stylesheet" />
+   <!--<link type="text/css" href="css/jquery-ui-1.8.24.custom.css" rel="stylesheet" />-->
+   <link href="css/sb.css" rel="stylesheet" type="text/css">
+   <link href="css/liteaccordion.css" rel="stylesheet" type="text/css">
+   <style>
+      .ui-state-default,
+      .ui-widget-content .ui-state-default,
+      .ui-widget-header .ui-state-default {
+         color: white;
+         /*         opacity: 0.7;*/
+         font-size: 14px;
+         cursor: pointer;
+         display: block;
+         background: #5a5a5c;
+         font-family: 'Gotham-Book';
+      }
+
+      .ui-accordion .ui-accordion-icons {
+         padding-top: 20px;
+         padding-bottom: 0px;
+         padding-left: 41px;
+         text-align: left;
+         height: 46px;
+         border: 1px solid #AEADAB;
+         cursor: pointer !important;
+      }
+
+      .ui-accordion .ui-accordion-icons {
+         border: none;
+         border-top: 1px solid #c0c0c0 !important;
+      }
+
+      .ui-widget-content {
+         border: 1px solid #dfdfe4;
+         background-color: #dfdfe4;
+         color: #333333;
+      }
+
+      .menuitems,
+      .menuitems1 {
+         /*width: 190px;height: 39px;background-color: black;color: white;opacity: 0.7; border-top: 1px solid #c0c0c0;font-size: 14px;cursor: pointer;display: block;background: #4a4a4b;*/
+      }
+
+      .menuitemsBase {
+         width: 190px;
+         height: 39px;
+         /*background-color: black;*/
+         color: white;
+         /*opacity: 0.7; */
+         border-top: 0px solid #c0c0c0;
+         font-size: 14px;
+         cursor: pointer;
+         background-color: #eb140a;
+      }
+
+      .active {
+         background-color: #eb140a;
+         opacity: 1;
+         border-top: 1px solid #c0c0c0;
+      }
+
+      .menuitems:hover,
+      .menuitems1:hover {
+         background-color: #eb140a;
+         opacity: 1;
+      }
+
+      .point5text5:hover,
+      .point5text6:hover,
+      .point5text7:hover {
+         background: none !important;
+         border: none !important;
+      }
+
+      .menuitemsBase:hover {
+         background-color: #eb140a;
+         opacity: 1;
+      }
+
+      #rightSideController .menuitems:hover {
+         background-color: #dfdfe4;
+         opacity: 1;
+      }
+
+      .menuText {
+         /* margin-left: 10px;
+         margin-top: 10px;
+         position: absolute;  */
+      }
+
+      #panel {
+         display: none;
+      }
+   </style>
+</head>
+
+<body>
+   <div id="superblaze" style="z-index:2;position:absolute">
+      <div id="loader">
+         <image src="./images_gl/loaderblock.jpg" />
+      </div>
+    
+
+      <div id="firstSlideheadWrapper">
+         <div id="cpHeading" class="cptextWrapper"></div>
+      </div>
+
+      <div id="onloadCopy" style="text-align:center;line-height:36px;display: none">
+         <p class="point1text1"></p>
+      </div>
+
+      <div id="Header_Plate"></div>
+      <div class="noselect productName"><img style="width: 270px" src="images_gl/ThinkSystem_Logo.svg" /><span>SD650 V3</span></div>
+
+      <div id="scenediv">
+         <div id="firstSlideWrapper">
+
+         </div>
+
+
+         <div id="ButtonController">
+
+            <div id="accordion1" class="accordion" style="   left:0px;bottom:69px;padding:0;position:absolute;width:362px;z-index:2; ">
+
+               <h3 id="menu2" class="menuitems"><span class="menuText">Nodes</span></h3>
+               <div>
+                  <div id="rightSideController">
+                     <div id="menu3" class="menuitems animPlayBtns1">
+                        <div class="greyOutBox redOutBox"></div>
+                        <span>Rear View</span>
+                     </div>
+                  </div>
+                  <div id="rightSideController">
+                     <div id="menu4" class="menuitems animPlayBtns1">
+                        <div class="greyOutBox redOutBox"></div>
+                        <span>Top View</span>
+                     </div>
+                  </div>
+                  <div id="rightSideController">
+                     <div id="menu5" class="menuitems animPlayBtns1">
+                        <div class="greyOutBox redOutBox"></div>
+                        <span>Front View</span>
+                     </div>
+                  </div>
+               </div>
+               <h3 id="menu9" class="menuitems"><span class="menuText">Enclosure</span></h3>
+               <div>
+                  <div id="rightSideController">
+                     <div id="menu12" class="menuitems animPlayBtns1">
+                        <div class="greyOutBox redOutBox"></div>
+                        <span>Front View</span>
+                     </div>
+                  </div>
+                  <div id="rightSideController">
+                     <div id="menu13" class="menuitems animPlayBtns1">
+                        <div class="greyOutBox redOutBox"></div>
+                        <span>Rear View</span>
+                     </div>
+                  </div>
+                  <div id="rightSideController">
+                     <div id="menu14" class="menuitems animPlayBtns1">
+                        <div class="greyOutBox redOutBox"></div>
+                        <span>Water Manifolds</span>
+                     </div>
+                  </div>
+               </div>
+            </div>
+
+            <div id="accordion2" class="accordion" style="left:726px;bottom:1px;padding:0;position:absolute;width:362px;z-index:2;">
+
+               <h3 id="menu6" class="menuitems"><span class="menuText">CPUs</span></h3>
+               <div></div>
+               <h3 id="menu10" class="menuitems"><span class="menuText">HPC & AI Software Stack</span></h3>
+               <div></div>
+               <h3 id="bjs" class="menuitems" style="pointer-events: none;"><span class="menuText"></span></h3>
+               <div></div>
+            </div>
+
+            <div id="accordion3" class="accordion" style="left:363px;bottom:1px;padding:0;position:absolute;width:360px;z-index:2;">
+               <h3 id="menu7" class="menuitems"><span class="menuText">Direct Water Cooling</span></h3>
+               <div>
+                  <div id="rightSideController">
+                     <div id="menu8" class="menuitems animPlayBtns1">
+                        <div class="greyOutBox redOutBox"></div>
+                        <span>Component View</span>
+                     </div>
+                  </div>
+               </div>
+               <h3 id="menu15" class="menuitems"><span class="menuText">Rack View</span></h3>
+               <div> </div>
+               <h3 id="menu11" class="menuitems"><span class="menuText">Services</span></h3>
+               <div></div>
+            </div>
+
+
+            <div id="back_Button">
+               <!-- <img style="width:40px;height:40px;position: absolute;left: 70px;top: 16px;" src="./images_gl/back_button.png"> -->
+            </div>
+            
+            <div class="autoplay_btn menuitems1 playAll" id="autoPlays"><span id="pauseplayImg"><img style="width:40px;height:40px;" src="./images_gl/Play.svg" /></span><span id="pauseplayImg2"><img style="width:40px;height:40px;" src="" /></span>
+            </div>
+         </div>
+
+       
+         <div id="lenovo_logo" style="display:block"><img style="width:62px;" src="./images_gl/Lenovo.svg"></div>
+         <div id="pointtext1" class="transbox noselect pointcontent2" style="display: none;">
+
+            <div id="Cp_text_01"></div>
+            <div id="Cp_text_02"></div>
+            <ul id="list_X" class="Cp_textul" style="opacity: 1;padding:6px">
+               <li></li>
+               <li></li>
+               <li></li>
+               <li></li>
+            </ul>
+            <div id="Cp_text_03"></div>
+            <div id="Cp_text_04"></div>
+            <div id="Cp_text_05"></div>
+            <div id="Cp_text_06"></div>
+            <div id="networkSet">
+               <div id="Cp_text_07"></div>
+               <div id="Cp_text_08"></div>
+               <div id="Cp_text_09"></div>
+            </div>
+            <div id="Cp_text_10" class="cpNodetext"></div>
+            <div id="Cp_text_11" class="cpNodetext"></div>
+            <div id="Cp_text_12" class="cpNodetext"></div>
+         </div>
+
+
+         <div id="point3text" class="" style="display: none;">
+         </div>
+
+         <div id="point4text" style="display:none;">
+
+            <p class="point4headingText" style="position: absolute;
+               left: 73px;
+               top: 320px;
+               font-size: 28px;
+               width: 986px;
+               text-align: left;
+               line-height: 39px;"></p>
+            <div id="hotspot3" class="cur" style="display: block;">
+               <p id="hot3"></p>
+               <img id="hotspot3plus" class="plus" src="">&nbsp;
+            </div>
+            <div id="hotspot4" class="cur" style="display: block;">
+               <p id="hot4"></p>
+               <img id="hotspot4plus" class="plus" src="">&nbsp;
+            </div>
+            <div id="hotspot5" class="cur" style="display: block;">
+               <p id="hot5"></p>
+               <img id="hotspot5plus" class="plus" src="">&nbsp;
+            </div>
+            <div id="hotspot6" class="cur" style="display: block;">
+               <p id="hot6"></p>
+               <img id="hotspot6plus" class="plus" src="">&nbsp;
+            </div>
+            <div id="hotspot7" class="cur" style="display: block;">
+               <p id="hot7"></p>
+               <img id="hotspot7plus" class="plus" src="">&nbsp;
+            </div>
+            <div id="hotspot07" class="cur" style="display: block;">
+               <p id="hot07"></p>
+               <img id="hotspot07plus" class="plus" src="">&nbsp;
+            </div>
+            <div id="hotspot8" class="cur" style="display: block;">
+               <p id="hot8"></p>
+               <img id="hotspot8plus" class="plus" src="">&nbsp;
+            </div>
+            <div id="hotspot9" class="cur" style="display: block;">
+               <p id="hot9"></p>
+               <img id="hotspot9plus" class="plus" src="">&nbsp;
+            </div>
+            <div id="hotspot99" class="cur" style="display: block;">
+               <p id="hot99"></p>
+               <img id="hotspot99plus" class="plus" src="">&nbsp;
+            </div>
+            <div id="hotspot999" class="cur" style="display: block;">
+               <p id="hot999"></p>
+               <img id="hotspot999plus" class="plus" src="">&nbsp;
+            </div>
+
+            <p><img src="" id="NivdiaLogo4"></p>
+         </div>
+
+
+         <div id="point5text" class="transbox noselect">
+            <p class="point5headingText" style="left: 66px;
+            position: absolute;
+            width: 974px;
+            top: 324px;
+            z-index: 1002;
+            font-size: 27px;
+            text-align:left;"></p>
+            <img src="" class="Point5Img" />
+            <div id="hotspot40" class="cur" style="display: block;">
+               <p id="hot40"></p>
+               <div id="hotspot40plusline">
+                  <div id="hotspot40pluslinebefore"></div>
+                  <div id="hotspot40pluslineafter"></div>
+                  <div id="hotspot40pluslineleft"></div>
+               </div>
+               <!-- <img id="hotspot40plus" class="plus" src="">&nbsp; -->
+            </div>
+            <div id="hotspot41" class="cur" style="display: block;">
+               <p id="hot41"></p>
+               <img id="hotspot41plus" class="plus" src="">&nbsp;
+            </div>
+            <div id="hotspot42" class="cur" style="display: block;">
+               <p id="hot42"></p>
+               <img id="hotspot42plus" class="plus" src="">&nbsp;
+            </div>
+            <!-- <div id="hotspot43" class="cur" style="display: block;">
+               <p id="hot43"></p>
+               <img id="hotspot43plus" class="plus" src="">&nbsp;
+            </div> -->
+            <div id="hotspot44" class="cur" style="display: block;">
+               <p id="hot44"></p>
+               <img id="hotspot44plus" class="plus" src="">&nbsp;
+            </div>
+            <div id="hotspot45" class="cur" style="display: block;">
+               <p id="hot45"></p>
+               <!-- <div id="hotspot45plus"></div> -->
+               <img id="hotspot45plus" class="plus" src="">&nbsp;
+            </div>
+         </div>
+
+         <div id="point6text" style="display: none; top: 40px; left: 30px;">
+            <p class="point6headingText"></p>
+            <img src="" class="Point6Img" />
+
+         </div>
+         <div id="point7Div" style="display:none;">
+            <p class="point7text1"></p>
+         </div>
+
+         <div id="point7text" class="transbox noselect">
+            <!--    <p class="point7headingText" style="position:absolute;left: 527px;top:90px;width: 450px;font-size: 29px;"></p>-->
+            <p class="point7text1 bodyText"></p>
+
+            <img src="" class="Point7Img" />
+            <div id="point7text14"></div>
+            <div id="hotspot71" class="cur" style="display: block;">
+               <p id="hot50_1"></p>
+            </div>
+         </div>
+
+         <div id="point8text" style="display:none;">
+            <p class="point8headingText" style="position:absolute;left: 79px;top:375px;width: 920px;font-size: 26px;text-align: left"></p>
+            <p class="point8text1"></p>
+            <p class="point8text2"></p>
+            <!-- <div id="point8img1">
+               <img src="./images_gl/Enclosure/enclosure-rear.jpg" alt="" class="point8textmainimg" />
+            </div> -->
+         </div>
+
+         <div id="point9text" style="display:none;">
+            <p class="point9headingText" style="position:absolute;left: 505px;top:87px;width: 530px;font-size: 29px;"></p>
+            <div id="point9text1"></div>
+            <div id="hotspot51" class="cur" style="display: block;">
+               <p id="hot51"></p>
+            </div>
+            <div id="hotspot52" class="cur" style="display: block;">
+               <p id="hot52"></p>
+            </div>
+            <div id="hotspot53" class="cur" style="display: block;">
+               <p id="hot53"></p>
+            </div>
+            <div id="hotspot54" class="cur" style="display: block;">
+               <p id="hot54"></p>
+            </div>
+            <div id="hotspot55" class="cur" style="display: block;">
+               <p id="hot55"></p>
+            </div>
+            <div id="hotspot56" class="cur" style="display: block;">
+               <p id="hot56"></p>
+            </div>
+            <div id="hotspot57" class="cur" style="display: block;">
+               <p id="hot57"></p>
+            </div>
+            <div id="hotspot58" class="cur" style="display: block;">
+               <p id="hot58"></p>
+            </div>
+            <div id="hotspot59" class="cur" style="display: block;">
+               <p id="hot59"></p>
+            </div>
+            <div id="hotspot60" class="cur" style="display: block;">
+               <p id="hot60"></p>
+            </div>
+            <div id="hotspot61" class="cur" style="display: block;">
+               <p id="hot61"></p>
+            </div>
+            <div id="hotspot62" class="cur" style="display: block;">
+               <p id="hot62"></p>
+            </div>
+            <!-- <div id="point9img1">
+               <img src="./images_gl/Enclosure/enclosure-front.jpg" alt="" class="point9textmainimg" />
+            </div> -->
+
+
+         </div>
+
+         <div id="point10text" style="display:none;">
+            <p class="point10text1"></p>
+            <p class="point10text7"></p>
+            <img src="./images_gl/slide/LiCOPicture1.png" class="point10imgMain" />
+
+         </div>
+
+         <div id="point12text" style="display:none;">
+            <p class="point12headingText" style="position:absolute;left: 320px;top:87px;width: 840px;font-size: 15px;text-align: center"></p>
+            <p class="point12text1"></p>
+         </div>
+
+         <div id="point13text" class="noselect pointcontent" style="display:none;z-index:20">
+
+            <div id="point13text1" style="display:none;"></div>
+            <div id="point13text1SubContent" class="point13text1SubContents">
+               <h3>Technology Areas</h3>
+               <ul>
+                  <li><span>Hybrid Cloud</span></li>
+                  <li><span>Data & Analytics</span></li>
+                  <li><span>HPC Data Center</span></li>
+                  <li><span>Cooling</span></li>
+                  <li><span>Virtualization & VDI</span></li>
+               </ul>
+            </div>
+            <img src="./images_gl/Services2/small.png" alt="" class="point13textmainimg" />
+
+            <div class="learnmore anim" style="position: absolute;left: 800px;top: 1000px;">
+               <a href="#" style="margin-right: 18px;font-weight: bold;font-size: 38px;">Learn More</a>
+               <p id="qrcodeimg" class="learnmore anim" style="margin-top: 12px;"><img width="240px" src="./images_gl/Services2/qrcode.png"></p>
+            </div>
+
+            <div id="point13text2" class="point13click">
+               <img src="./images_gl/Services2/1.svg" alt="" />
+            </div>
+            <div id="point13textContent1" class="point13textContent">
+               <h3>Discover</h3>
+               <ul>
+                  <li><span>Workshop</span></li>
+                  <li><span>Assessment</span></li>
+               </ul>
+               <p>Lenovo experts set up an interactive, informative workshop session to review your primary goals and objectives.</p>
+               <!-- <a href="" target="_blank">Learn More</a> -->
+            </div>
+            <div id="point13text3" class="point13click">
+               <img src="./images_gl/Services2/2.svg" alt="" />
+            </div>
+            <div id="point13textContent2" class="point13textContent">
+               <h3>Design</h3>
+               <ul>
+                  <li><span>Solution Architecture</span></li>
+                  <li><span>Capacity Planning</span></li>
+                  <li><span>Best practices</span></li>
+               </ul>
+               <p>Our team will collaborate with you to design the best solution for your needs.</p>
+               <!-- <a href="" target="_blank">Learn More</a> -->
+            </div>
+            <div id="point13text4" class="point13click">
+               <img src="./images_gl/Services2/3.svg" alt="" />
+            </div>
+            <div id="point13textContent3" class="point13textContent">
+               <h3>Implement</h3>
+               <ul>
+                  <li><span>Hardware Installation</span></li>
+                  <li><span>Migration</span></li>
+                  <li><span>Deployment</span></li>
+               </ul>
+               <p>Once your full solution is architected, ordered, and ready for deployment, we can manage any aspects of hardware installation, data migration and system deployment.</p>
+               <!-- <a href="" target="_blank">Learn More</a> -->
+            </div>
+            <div id="point13text5" class="point13click">
+               <img src="./images_gl/Services2/4.svg" alt="" />
+            </div>
+            <div id="point13textContent4" class="point13textContent">
+               <h3>Support</h3>
+               <ul>
+                  <li><span>Warranty Upgrade/ Extension</span></li>
+                  <li><span>Premier Support</span></li>
+                  <li><span>Technical Account Manager</span></li>
+                  <li><span>Enterprise Server Software</span></li>
+               </ul>
+               <p>Get the support you need through our warranty upgrade or extension offerings, and a single point of contact service with Premier Support.</p>
+               <!-- <a href="" target="_blank">Learn More</a> -->
+            </div>
+            <div id="point13text6" class="point13click">
+               <img src="./images_gl/Services2/5.svg" alt="" />
+            </div>
+            <div id="point13textContent5" class="point13textContent">
+               <h3>Optimize</h3>
+               <ul>
+                  <li><span>Managed Services</span></li>
+                  <li><span>Firmware/ Best Recipe Update</span></li>
+                  <li><span>Preventative Maintenance</span></li>
+                  <li><span>Health Check</span></li>
+               </ul>
+               <p>Access a range of Lenovo services to ensure maximum system performance.</p>
+               <!-- <a href="" target="_blank">Learn More</a> -->
+            </div>
+            <div id="point13text7" class="point13click">
+               <img src="./images_gl/Services2/6.svg" alt="" />
+            </div>
+            <div id="point13textContent6" class="point13textContent">
+               <h3>Retire</h3>
+               <ul>
+                  <li><span>Hard Deinstallation</span></li>
+                  <li><span>Asset Recovery</span>
+                     <ul style="margin-top: 10px;">
+                        <li><span>Recycling/ Disposal</span></li>
+                        <li><span>Data Sanitization</span></li>
+                        <li><span>Drive Destruction</span></li>
+                     </ul>
+                  </li>
+               </ul>
+               <p>When your equipment reaches its end of life, Asset Recovery Services helps you meet sustainability goals and provides potential monetary value via a trade-in program.</p>
+               <!-- <a href="" target="_blank">Learn More</a> -->
+            </div>
+            <div id="point13text8" class="point13click">
+               <span>TruScale<br /> infrastructure<br /> Services</span>
+            </div>
+            <div id="point13textContent7" class="point13textContent">
+               <h3>Lenovo TruScale: Unpacking the benefits of everything-as-a-service</h3>
+               <p>Lenovo TruScale, a portfolio-spanning everything-as-a-service offering, is part of Lenovo&#8217;s continuing transformation for the next reality.</p>
+               <!-- <a href="" target="_blank">See How</a> -->
+            </div>
+
+         </div>
+
+         <div id="point14text" style="display:none;">
+            <p class="point14headingText" style="position:absolute;left: 320px;top:87px;width: 840px;font-size: 15px;text-align: center"></p>
+            <div id="hotspot1" class="cur" style="display: block;">
+               <p id="hot1"></p>
+               <img id="hotspot1plus" class="plus" src="">&nbsp;
+            </div>
+
+            <div id="hotspot2" class="cur" style="display: block;">
+               <p id="hot2"></p>
+               <img id="hotspot2plus" class="plus" src="">&nbsp;
+            </div>
+            <div id="hotspot10" class="cur" style="display: block;">
+               <p id="hot10"></p>
+               <img id="hotspot10plus" class="plus" src="">&nbsp;
+            </div>
+            <div id="hotspot11" class="cur" style="display: block;">
+               <p id="hot11"></p>
+               <img id="hotspot11plus" class="plus" src="">&nbsp;
+            </div>
+            <img src="" id="NivdiaLogo14">
+         </div>
+
+         <div id="point15text" style="display:none;">
+            <!-- <p class="point15headingText" style="position:absolute;left: 64px;top:317px;width: 959px;font-size: 28px;text-align:left"></p> -->
+
+            <div id="hotspot63" class="cur" style="display: block;">
+               <p id="hot63"></p>
+               <img id="hotspot63plus" class="plus" src="">&nbsp;
+            </div>
+            <div id="hotspot64" class="cur" style="display: block;">
+               <p id="hot64"></p>
+               <img id="hotspot64plus" class="plus" src="">&nbsp;
+            </div>
+            <div id="hotspot65" class="cur" style="display: block;">
+               <p id="hot65"></p>
+               <img id="hotspot65plus" class="plus" src="">&nbsp;
+            </div>
+            <div id="hotspot66" class="cur" style="display: block;">
+               <p id="hot66"></p>
+               <img id="hotspot66plus" class="plus" src="">&nbsp;
+            </div>
+            <div id="hotspot67" class="cur" style="display: block;">
+               <p id="hot67"></p>
+               <img id="hotspot67plus" class="plus" src="">&nbsp;
+            </div>
+            <div id="hotspot68" class="cur" style="display: block;">
+               <p id="hot68"></p>
+               <div class="Border68"></div>
+               <!-- <img id="hotspot68plus" class="plus" src="">&nbsp; -->
+            </div>
+            <div id="hotspot69" class="cur" style="display: block;">
+               <p id="hot69"></p>
+               <div class="Border69"></div>
+               <!-- <img id="hotspot69plus" class="plus" src="">&nbsp; -->
+            </div>
+            <div id="hotspot70" class="cur" style="display: block;">
+               <p id="hot70"></p>
+               <img id="hotspot70plus" class="plus" src="">&nbsp;
+            </div>
+
+
+         </div>
+         <div id="point16text" style="display:none;">
+            <p class="point16headingText" style="position:absolute;left: 55px;top:380px;width: 960px;font-size: 28px;text-align: left"></p>
+
+            <p class="point16text1"></p>
+            <p class="point16text2"></p>
+            <p class="point16text3"></p>
+
+            <!-- <div id="point16img1">
+               <img src="./images_gl/Enclosure/WATER_MANIFOLD.jpg" alt="" class="point16textmainimg" />
+            </div> -->
+         </div>
+
+         <div id="point2text" style="display:none;">
+            <p class="point2text1"></p>
+         </div>
+
+         <div id="point17text" style="display:none;">
+            <p class="point17text1"></p>
+            <p class="point17text2"></p>
+            <p class="point17text3"></p>
+            <p class="point17text4"></p>
+            <!-- <div class="point17image">
+               <img src="./images_gl/Enclosure/enclosure-fl.jpg" alt="" class="point17textmainimg" />
+            </div> -->
+         </div>
+
+
+
+         <div id="home" class="cur">
+            <img src="../../superblaze_demo_images/reset.png">
+         </div>
+         <div id="playVideos" style="display: none">
+            <!-- <img src="" alt="" /> -->
+         </div>
+         <div class="bottomBtn">
+            <button id="previous" class="buttons" > <span class="carousel-prev-icon" aria-hidden="true"></span> Previous</button>
+            <button id="next" class="buttons" >Next <span class="carousel-next-icon" aria-hidden="true"></span></button>
+         </div>
+
+         <div id="maincanvasContainer"><canvas style="margin:0px" id="superblaze-canvas" width="1080" height="1920"></canvas>
+         </div>
+         
+      </div>
+   </div>
+   <div id="canvasContainer" style="width:1080px;height:1920px;position:absolute;z-index:1;background-color:#fff;visibility:visible;">
+      <canvas style="margin:0px" id="dummy-canvas" width="1080" height="1920"></canvas>
+   </div>
+   <script type="text/javascript" src="js/gl_script.js"></script>
+</body>
+
+</html>
