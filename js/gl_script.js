@@ -1722,7 +1722,7 @@ function menu2Click() {
 
    timeouts.push(setTimeout(function () {
       autoRotateCall();
-      console.log("autoRotateCall");
+    //  console.log("autoRotateCall");
       if (autoplayAnim) {
          animCompeteAuto();
       } else {
@@ -1735,7 +1735,7 @@ function menu2Click() {
 }
 
 function menu3Click() {
-   console.log("menu3_click");
+ //  console.log("menu3_click");
    objectsHidenew();
    divHide();
    allStatesOff();
@@ -1780,7 +1780,7 @@ function menu3Click() {
    }));
    timeouts.push(setTimeout(function () {
       
-      console.log("autoRotateCall");
+      //console.log("autoRotateCall");
       if (autoplayAnim) {
          animCompeteAuto();
       } else {
@@ -2303,7 +2303,7 @@ function menu15Click() {
 
      // autoRotateCall();
       rackRotation = true;
-      console.log("autoRotateCall");
+     // console.log("autoRotateCall");
       scene._nav._navRotationSpeed = 0.00095;
       scene._nav._navMode2Speed = 0.0006;
       console.log(rackRotation)
@@ -3209,7 +3209,7 @@ function frameUpdateForScene(scene) {
    //       }
    if (bgotoPosInTimeUpdate)
       scene.clearRefine();
-   // if (drawn) hotspotPosAsignment();
+   // if (drawn && AllgeoIntl) hotspotPosAsignment();
 }
 
 function getScene(ev) {
