@@ -482,7 +482,7 @@ var preLoadImage7 = new Image();
 var preLoadImage8 = new Image();
 
 function load_img() {
-   preLoadImage1.src = 'images_gl/loaderblock.png';
+   preLoadImage1.src = 'images_gl/loaderblock.jpg';
    preLoadImage5.onload = afterLoad;
 }
 
@@ -711,7 +711,7 @@ $(document).ready(function () {
       clearTimeout(myVar);
       clearTimeout(startAutorot);
       $("#dummy-canvas").css("pointer-events","all");
-      $("#rightAnim").css("display","block");
+      // $("#rightAnim").css("display","block");
       $("#point10text").css("display","none");
       $('#point14text').css('display','none');
       firstAnim = true;
@@ -871,58 +871,12 @@ function imgPreLoader() {
 
    $.preloadImages(
       "./images_gl/Play.svg",
-      "./images_gl/right_popup.svg",
+      // "./images_gl/right_popup.svg",
       "./images_gl/Lenovo.svg",
       "./images_gl/lines/0.png",
       "./images_gl/lines/1.png",
-      "./images_gl/anybay.png",
-      "./images_gl/lines/1.png",
-      "./images_gl/lines/0.png",
-      "./images_gl/lines/0.png",
-      "./images_gl/lines/0.png",
-      "./images_gl/lines/1.png",
-      "./images_gl/lines/1.png",
-      "./images_gl/lines/0.png",
-      "./images_gl/lines/0.png",
-      // "./images_gl/confg/01.png",
-      // "./images_gl/confg/02.png",
-      // "./images_gl/confg/03.png",
-      // "./images_gl/confg/04.png",
-      // "./images_gl/confg/05.png",
-      "./images_gl/anybay.png",
-      "./images_gl/lines/1.png",
-      "./images_gl/lines/1.png",
-      "./images_gl/lines/1.png",
-      "./images_gl/lines/1.png",
-      "./images_gl/lines/1.png",
-      "./images_gl/lines/1.png",
-      "./images_gl/lines/1.png",
-      "./images_gl/lines/0.png",
-      "./images_gl/lines/0.png",
-      "./images_gl/lines/0.png",
-      "./images_gl/lines/0.png",
-      "./images_gl/lines/0.png",
-      "./images_gl/lines/3.png",
-      "./images_gl/lines/3.png",
-      "./images_gl/lines/3.png",
-      "./images_gl/lines/3.png",
-      "./images_gl/lines/3.png",
-      "./images_gl/lines/2.png",
       "./images_gl/lines/2.png",
       "./images_gl/lines/3.png",
-      "./images_gl/lines/3.png",
-      "./images_gl/lines/3.png",
-      "./images_gl/lines/3.png",
-      "./images_gl/lines/2.png",
-      "./images_gl/lines/2.png",
-      
-      // "./../assets/oldUI/images_gl/Services/1.png",
-      // "./../assets/oldUI/images_gl/Services/2.png",
-      // "./../assets/oldUI/images_gl/Services/3.png",
-      // "./../assets/oldUI/images_gl/Services/4.png",
-      // "./../assets/oldUI/images_gl/Services/1_1.png",
-      // "./../assets/oldUI/images_gl/Services/1_2.png",
-      // "./../assets/oldUI/images_gl/Services/1_3.png"
    );
 }
 
@@ -932,12 +886,8 @@ function UiLoader() {
    $("#resetBtn img").attr("src","./images_gl/reset.svg");
    $("#lenovo_logo img").attr("src","./images_gl/Lenovo.svg");
    //	$("#fullScreen img").attr("src", "../images_gl/Fullscreen_01.png");
-   $("#rightAnim img").attr("src","./images_gl/right_popup.svg");
+   // $("#rightAnim img").attr("src","./images_gl/right_popup.svg");
    $("#pauseplayImg img").attr("src","./images_gl/Play.svg");
-
-   $("#pauseplayImg img").attr("src","./images_gl/Play.svg");
-   $("#rightAnim img").attr("src","./images_gl/right_popup.svg");
-   $("#lenovo_logo img").attr("src","./images_gl/Lenovo.svg");
 
    $("#point10text .point10text2").attr("src","./images_gl/LiCOPicture1.png");
    $("#point10text .point10text3").attr("src","./images_gl/LiCOPicture2.png");
@@ -953,9 +903,7 @@ function UiLoader() {
    $("#hotspot5plus.plus").attr("src","./images_gl/lines/90x120.png");
    $("#hotspot6plus.plus").attr("src","./images_gl/lines/5.png");
    $("#hotspot7plus.plus").attr("src","./images_gl/lines/22.png");
-
    $("#hotspot07plus.plus").attr("src","./images_gl/lines/32.png");
-
    $("#hotspot8plus.plus").attr("src","./images_gl/lines/31.png");
    $("#hotspot9plus.plus").attr("src","./images_gl/lines/31.png");
    $("#hotspot99plus.plus").attr("src","./images_gl/lines/31.png");
@@ -1002,7 +950,6 @@ function UiLoader() {
    $("#hotspot51plus.plus").attr("src","./images_gl/lines/32.png");
    $("#hotspot52plus.plus").attr("src","./images_gl/lines/32.png");
    $("#hotspot63plus.plus").attr("src","./images_gl/lines/23.png");
-
    $("#hotspot64plus.plus").attr("src","./images_gl/lines/23_130.png");
    $("#hotspot65plus.plus").attr("src","./images_gl/lines/23.png");
    $("#hotspot66plus.plus").attr("src","./images_gl/lines/23.png");
@@ -1010,51 +957,22 @@ function UiLoader() {
    $("#hotspot68plus.plus").attr("src","./images_gl/lines/23.png");
    $("#hotspot69plus.plus").attr("src","./images_gl/lines/23.png");
    $("#hotspot70plus.plus").attr("src","./images_gl/lines/23_130.png");
-
-
-   $("#point5image1 img").attr("src","./images_gl/confg/Server01.jpg");
-   $("#point5image2 img").attr("src","./images_gl/confg/Server02.jpg");
-   $("#point5image3 img").attr("src","./images_gl/confg/Server03.jpg");
    $("#point5text .Point5Img").attr("src","./images_gl/Picture6.png");
-   //    $("#point5text .point5text1Img").attr("src","./images_gl/confg/Server01.jpg");
-   //    $("#point5text .point5text2Img").attr("src","./images_gl/confg/Server01.jpg");
-   //    $("#point5text .point5text3Img").attr("src","./images_gl/confg/Server01.jpg");
-   $("#point12image1 img").attr("src","./images_gl/confg/intel-xenon.png");
-   //    $("#point5image4 img").attr("src","./images_gl/confg/04.png");
-   //    $("#point5image5 img").attr("src","./images_gl/confg/05.png")
-   $("#point5image6 img").attr("src","./images_gl/anybay.png");
-
-   $("#point7image1 img").attr("src","images_gl/intel.png");
-   $("#point8image1 img").attr("src","images_gl/intel.png");
-
-   // $("#point13image1 img").attr("src","./../assets/oldUI/images_gl/Services/1.png")
-   // $("#point13image1_1 img").attr("src","./../assets/oldUI/images_gl/Services/1_1.png")
-   // $("#point13image1_2 img").attr("src","./../assets/oldUI/images_gl/Services/1_2.png")
-   // $("#point13image1_3 img").attr("src","./../assets/oldUI/images_gl/Services/1_3.png")
-   // $("#point13image1_4 img").attr("src","./../assets/oldUI/images_gl/Services/1_4.png")
-   // $("#point13image2 img").attr("src","./../assets/oldUI/images_gl/Services/2.png")
-   // $("#point13image3 img").attr("src","./../assets/oldUI/images_gl/Services/3.png")
-   // $("#point13image4 img").attr("src","./../assets/oldUI/images_gl/Services/4.png")
-   // $("#point13image5 img").attr("src","./../assets/oldUI/images_gl/Services/5.png")
 
    $("#point10image1 img").attr("src","./images_gl/01.png");
    $("#pont10Img1 img").attr("src","./images_gl/02.png");
    $("#pont10Img2 img").attr("src","./images_gl/03.png");
-   // $("#pont10Img3 img").attr("src","./images_gl/04.png");
-   // $("#pont10Img4 img").attr("src","./images_gl/05.png");
-   //    $("#point5text .point5text1Img").attr("src", "./images_gl/Server03.jpg");
-   //  $("#point5text .point5text2Img").attr("src", "./images_gl/Server02.jpg");
-   //  $("#point5text .point5text3Img").attr("src", "./images_gl/Server01.jpg");
    $("#home img").attr("src","./superblaze_demo_images/reset.png");
-   $("#point21text .point21Img").attr("src","./images_gl/intel.png");
-   $("#point27text .point27Img").attr("src","./images_gl/intel.png");
 
-   $("#point14text #NivdiaLogo14").attr("src","./images_gl/Picture5.png");
-   $("#point4text #NivdiaLogo4").attr("src","./images_gl/Picture5.png");
-   $("#point7text .Point7Img").attr("src","./images_gl/Picture5.png");
+   $("#NivdiaLogo14 img").attr("src", "./images_gl/intel.svg");
+   $("#NivdiaLogo15 img").attr("src", "./images_gl/MaxLogo.svg");
+   $("#point4text #NivdiaLogo4").attr("src","./images_gl/intel.svg");
+   $("#point4text #NivdiaLogo5").attr("src","./images_gl/MaxLogo.svg");
+   $("#point7text .Point7Img").attr("src","./images_gl/intel.svg");
+   $("#point7text .Point7Img_Max").attr("src","./images_gl/MaxLogo.svg");
    $("#point6text .Point6Img").attr("src","./images_gl/Picture6.png");
-   $("#playVideos").append('<video id="screen-video1" width="100%" style="margin:0;" loop><source id="screen-video-src" type="video/mp4" src="./media/SD650_V3_MG_HD.mp4"></video>');
 
+   $("#playVideos").append('<video id="screen-video1" width="100%" style="margin:0;" loop><source id="screen-video-src" type="video/mp4" src="./media/SD650_V3_MG_HD.mp4"></video>');
 
    imgPreLoader();
    var img = new Image();
@@ -1118,13 +1036,13 @@ function onSuperBlazeReady() {
    //$("#point14text").fadeIn(200);
    // menu3 = false;
 
-   menu3Click();
+   // menu2Click();
    scene.gotoPosInTime(3.7049870270416103,0.4039441921469284,3.3999872004332525,0.9135648510001506,117.53675453357195,0,function () {
-      menu3Click();
+      menu2Click();
       $("#ui-accordion-accordion-panel-1").css('display','block');
       $(".greyOutBox").removeClass('redOutBox');
-      $("#menu2,#menu3 .greyOutBox").addClass('redOutBox');
-      $("#menu4,#menu5").removeClass('redOutBox');
+      // $("#menu2,#menu3 .greyOutBox").addClass('redOutBox');
+      $("#menu3,#menu4,#menu5").removeClass('redOutBox');
       $("#accordion1").accordion("option","active",0);
 
    });
@@ -1290,58 +1208,17 @@ var mob = (navigator.userAgent.indexOf("iPhone") != -1) || ((navigator.userAgent
 var FullscreenOff = false;
 
 function launchFullscreen(element) {
-   //    window.parent.fullScreen=true;
-   //    resizePage(window.parent.document.documentElement.clientWidth,window.parent.document.documentElement.clientHeight);
-   //    if(navigator.userAgent.indexOf('MSIE')!==-1 || navigator.appVersion.indexOf('Trident/') > 0){
-   //        //console.log("IE 11");
-   //        $("#fullScreenOff").css('display','none'); 
-   //        $("#fullScreen").css('display','none');
-   //        
-   //    }else{
-   //      //  console.log("Not IE 11");
-   //        $("#fullScreenOff").css('display','block'); 
-   //        $("#fullScreen").css('display','none');
-   //    }
-   //    
-   //   // console.log(" full screen ");
-   //    if(element.requestFullscreen) {
-   //        element.requestFullscreen();
-   //    } else if(element.mozRequestFullScreen) {
-   //        element.mozRequestFullScreen();
-   //    } else if(element.webkitRequestFullscreen) {
-   //        element.webkitRequestFullscreen();
-   //    } else if(element.msRequestFullscreen) {
-   //        element.msRequestFullscreen();
-   //    }
-   //setTimeout(function(){resizePage(window.parent.document.documentElement.clientWidth,window.parent.document.documentElement.clientHeight);;}, 2000);
+  
 }
 
 function exitFullscreen() {
-   // console.log("Exit full screen");
-   //    window.parent.fullScreen=false;
-   //    $("#fullScreenOff").css('display','none'); 
-   //    $("#fullScreen").css('display','block');  
-   //    if (window.parent.document.exitFullscreen) {
-   //        window.parent.document.exitFullscreen();
-   //    } else if (window.parent.document.mozCancelFullScreen) {
-   //        window.parent.document.mozCancelFullScreen();
-   //    } else if (window.parent.document.webkitExitFullscreen) {
-   //        window.parent.document.webkitExitFullscreen();
-   //    }
-   //    setTimeout(function() {
-   //        resizePage(window.parent.document.documentElement.clientWidth, window.parent.document.documentElement.clientHeight);
-   //    }, 40);
-
+   
 }
 
 window.document.onkeyup = function (e) {
    // console.log("ECS pressed IE1");
    if (e.keyCode == 27) { // escape key maps to keycode `27`
-      // if(navigator.userAgent.indexOf('MSIE')!==-1 || navigator.appVersion.indexOf('Trident/') > 0){
-      //    // console.log("ECS pressed IE");
-      // }
-      // console.log("ECS pressed"); 
-      // exitFullscreen(window.parent.document.documentElement);
+     
       var iE = 0;
       var _intervalEsc = setInterval(function () {
          if (iE < 5) {
@@ -1488,22 +1365,22 @@ function addMouseListeners(canvas) {
 }
 
 
-var rightAnimToggle = true;
+// var rightAnimToggle = true;
 var animblockStopped = true;
 var timeoutsnew = [];
 var timeouts = [];
 /*abhijitend*/
 
-function rightAnimClick() {
-   //	reversAll();
-   if (rightAnimToggle) {
-      $("#rightAnim").animate({ right: '0px' },"slow");
-      rightAnimToggle = false;
-   } else {
-      $("#rightAnim").animate({ right: '-235px' },"slow");
-      rightAnimToggle = true;
-   }
-}
+// function rightAnimClick() {
+//    //	reversAll();
+//    if (rightAnimToggle) {
+//       $("#rightAnim").animate({ right: '0px' },"slow");
+//       rightAnimToggle = false;
+//    } else {
+//       $("#rightAnim").animate({ right: '-235px' },"slow");
+//       rightAnimToggle = true;
+//    }
+// }
 
 function mouseDownHide() {
    $(".point3headingText").css("opacity","0");
@@ -1562,8 +1439,8 @@ function hideCallouts() {
    $("#hotspot4").css('display','none');
    $("#hotspot5").css('display','none');
    $("#hotspot533").css('display','none');
-	 $("#point4text").css('display','none');
-    $("#point16text").css('display','none');
+	$("#point4text").css('display','none');
+   $("#point16text").css('display','none');
   $("#point17text").css('display','none');
   $("#point8text").css('display','none');
   $("#point9text").css('display','none');
@@ -1585,7 +1462,7 @@ function divHide() {
    $("#point14text").css('display','none');
    $("#point15text").css('display','none');
    
- $("#point16text").css('display','none');
+  $("#point16text").css('display','none');
   $("#point17text").css('display','none');
   $("#point8text").css('display','none');
   $("#point9text").css('display','none');
@@ -1699,10 +1576,10 @@ function menu2Click() {
 
    $(".menuitems").parents().prev("#menu3").addClass("active");
    $("#menu2").addClass('active');
-   $("#menu3").removeClass("disabled");
-   $("#menu3").removeClass('active');
-   $(".greyOutBox").removeClass('redOutBox');
-   $("#menu3 .greyOutBox").addClass('redOutBox');
+   // $("#menu3").removeClass("disabled");
+   // $("#menu3").removeClass('active');
+   // $(".greyOutBox").removeClass('redOutBox');
+   // $("#menu3 .greyOutBox").addClass('redOutBox');
    $("#point14text").css("display","none");
    scene.groupApplyState('SD650_ON');
       scene.groupSet("Top_Cover","visible",false);
@@ -1711,17 +1588,17 @@ function menu2Click() {
       scene.groupApplyState('Enclosure_OFF');
       scene.groupApplyState('Nvidia_OFF');
       scene.groupApplyState('Rack_OFF');
-   $("#point14text").addClass('point14Active');
+   // $("#point14text").addClass('point14Active');
+   
+   $("#hotspot11").css('display','none');
    scene.gotoPosInTime(3.7049870270416103,0.4039441921469284,3.3999872004332525,0.9135648510001506,117.53675453357195,1000,(function () {
-      $("#point1text").css('display','block');
-      $("#hotspot1,#hotspot2,#hotspot10,#hotspot11").addClass('VisiBilityHotspot').css('display','block');
-      $("#point14text").css("display","block");
-      translateIn(1);
+      $("#onloadCopy").css('opacity','1');
+      $(".point1text1").css('display','block');
       animComplete();
    }));
 
    timeouts.push(setTimeout(function () {
-      autoRotateCall();
+      // autoRotateCall();
     //  console.log("autoRotateCall");
       if (autoplayAnim) {
          animCompeteAuto();
@@ -1747,14 +1624,13 @@ function menu3Click() {
    menu2 = true;
    scene._nav._panMax = [30,15]; //[left, bottom];
    scene._nav._panMin = [-30,0]; //[right, top];
-   $("#onloadCopy").css('display','block');
-   $("#onloadCopy").css('display','block');
+   $("#onloadCopy").css('display','none');
    $("#cpHeading").text("ThinkSystem SD650 V3 Nodes");
    $("#transparentPatch").css("display","none");
    $("#point15text").css('display','none');
    $("#point16text").css('display','none');
 
-   $(".menuitems").parents().prev("#menu3").addClass("active");
+   // $(".menuitems").parents().prev("#menu3").addClass("active");
    $("#menu2").addClass('active');
    $("#menu3").removeClass("disabled");
    $("#menu3").removeClass('active');
@@ -1771,11 +1647,11 @@ function menu3Click() {
 
    $("#point14text").addClass('point14Active');
    scene.gotoPosInTime(3.7049870270416103,0.4039441921469284,3.3999872004332525,0.9135648510001506,117.53675453357195,1000,(function () {
-      $("#hotspot1,#hotspot2,#hotspot10,#hotspot11").addClass('VisiBilityHotspot');
+      $("#hotspot1,#hotspot2,#hotspot10,#hotspot11").addClass('VisiBilityHotspot').css('display','block');
       $("#point14text").css("display","block");
       translateIn(14);
     
-	   autoRotateCall();
+	   // autoRotateCall();
 	     animComplete();
    }));
    timeouts.push(setTimeout(function () {
@@ -1941,7 +1817,7 @@ function menu6Click() {
    scene.groupApplyState('Upper_plate_off');
 
    scene.gotoPosInTime(0,1.570796,-14.223309,-1.0070400000000003,76.958862,1000,function () {
-      $("#point7text .Point7Img").css("display","block");
+      $("#point7text .Point7Img .Point7Img_Max").css("display","block");
       //$("#point7text").css("display","block");
       translateIn(7);
    });
@@ -2088,7 +1964,7 @@ function menu9Click() {
    $("#point14text").css('display','none');
    $("#point16text").css('display','none');
    $("#dummy-canvas").css("pointer-events","all");
-   $("#rightAnim").css("display","none");
+   // $("#rightAnim").css("display","none");
    scene.gotoPosInTime(0.4602972545035191,-0.0031415926535897933,-12.133970707422213,14.157810104662651,135.991882,1000,function () {
       // timeouts.push(setTimeout(function () {
          $("#point17text").fadeIn(400);   
@@ -2390,7 +2266,7 @@ function menu10Click() {
    $("#cpHeading").text("Lenovo HPC & AI Software Stack");
    $("#onloadCopy").css("display","none");
    $("#dummy-canvas").css("pointer-events","none");
-   $("#rightAnim").css("display","none");
+   // $("#rightAnim").css("display","none");
    timeouts.push(setTimeout(function () {
       $("#point10text").fadeIn(400);
 
@@ -2477,7 +2353,7 @@ function menu11Click() {
    $("#onloadCopy").css("display","none");
 
    $("#dummy-canvas").css("pointer-events","none");
-   $("#rightAnim").css("display","none");
+   // $("#rightAnim").css("display","none");
 
    timeouts.push(setTimeout(function () {
       $("#point13text").css('display','block');
@@ -2843,7 +2719,7 @@ function autoPlayAllAnimations() {
 	if (!clickEventActive && !autoRotateState) return;
    for (var j = 1; j <= 19; j++) { translateOut(j); }
    $(".menuitems").removeClass('active');
-   $("#rightAnim").css("display","block");
+   // $("#rightAnim").css("display","block");
    $(".greyOutBox").removeClass('redOutBox');
    clearInterval(autoRotateInterval);
    clearTimeout(myVar);
@@ -3934,10 +3810,10 @@ function mouseDown(ev) {
    if (!animStoped) return;
    console.log("mouse fun call");
    $("#onloadCopy").css("opacity","0");
-   $("#rightAnim").animate({
-      right: '-235px'
-   },"slow");
-   rightAnimToggle = true;
+   // $("#rightAnim").animate({
+   //    right: '-235px'
+   // },"slow");
+   // rightAnimToggle = true;
    mouseDownHide();
    hideCallouts();
    autoRotateStop();
@@ -4010,10 +3886,10 @@ function mouseMove(ev) {
 
 function mouseWheel(ev) {
    if (!animStoped) return;
-   $("#rightAnim").animate({
-      right: '-235px'
-   },"slow");
-   rightAnimToggle = true;
+   // $("#rightAnim").animate({
+   //    right: '-235px'
+   // },"slow");
+   // rightAnimToggle = true;
    for (var i = 0; i < timeouts.length; i++) {
       clearTimeout(timeouts[i]);
    }
@@ -4332,10 +4208,10 @@ function parseXml() {
             var point4_5 = $(this).find('point4text5').text();
             $('#point4text #hot7').append(point4_5);
 
-            var point4_6 = $(this).find('point4text6').text();
+            var point4_6 = $(this).find('point4text7').text();
             $('#point4text #hot8').append(point4_6);
 
-            var point4_7 = $(this).find('point4text7').text();
+            var point4_7 = $(this).find('point4text6').text();
             $('#point4text #hot9').append(point4_7);
             var point4_70 = $(this).find('point4text10').text();
             $('#point4text #hot99').append(point4_70);

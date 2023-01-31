@@ -23,128 +23,9 @@
             <![CDATA[ 
                 Lenovo ThinkSystem SD650 V3 is based on our next generation Lenovo Neptune™ direct water cooling platform leveraging four 4th Gen Intel® Xeon® Scalable processors. Our market-leading Direct Water Cooling (DWC) design allows for extreme performance in very dense packaging. This dual-node tray is designed for high performance computing (HPC), large-scale cloud, heavy simulations and modeling workloads.             ]]>
           </point1text1>
-            <!-- <point1text2>
-            <![CDATA[4 SXM GPU / 8 SFF configuration shown
-            ]]>
-            </point1text2> -->
         </onloadCopy>
-        
-<!--
-            <textFadeClass_01>        
-                <firstChild>Transform IT</firstChild>
-                <secondchild>into a Demand-driven Delivery Engine</secondchild>
-            </textFadeClass_01>
-        
-            <textFadeClass_02>        
-                <firstChild>Rapid Delivery</firstChild>
-                <secondchild>with Turn-key, End-to-end Automation</secondchild>
-            </textFadeClass_02>
-                
-            <textFadeClass_03>        
-                <firstChild>Easy to Manage</firstChild>
-                <secondchild>without Specialized Skills</secondchild>
-            </textFadeClass_03>
-            <textFadeClass_04>        
-                <firstChild>Simple to Scale</firstChild>
-                <secondchild>with Adaptable, Flexible Capacity</secondchild>
-            </textFadeClass_04>
-            <textFadeClass_05>        
-                <firstChild>Low Maintenance</firstChild>
-                <secondchild>with Automated, Managed Updates</secondchild>
-            </textFadeClass_05>
-        
--->
-<!--
-          <point0text1>
-            <![CDATA[Whisper quiet acoustics
-            ]]>
-         </point0text1>
-         <point0text2>
-            <![CDATA[ Continuous operation at 45°C
-            ]]>
-         </point0text2>
-         <point0text3>
-            <![CDATA[Energy Star compliance
-            ]]>
-         </point0text3>
-         <point0text4>
-             <![CDATA[High efficiency, redundant, and <br><span id="overviewtx1"></span>hot-swap power supply options
-            ]]>
-         </point0text4>
--->
       </message>
 
-<!--
-      <pointtext1>
-         <point1text2>
-            <![CDATA[4 SXM GPU / 8 SFF configuration shown
-            ]]>
-         </point1text2>
-</pointtext1>
--->
-    <!--     <point1text2>
-            <![CDATA[ Turnkey Cloud Experience
-            ]]>
-         </point1text2>
-         <point1text3>
-            <![CDATA[<span>Stack</span> Secure in Your Data Center
-            ]]>
-         </point1text3>
-         <point1text4>
-            <![CDATA[Independently Scalable Capacity
-            ]]>
-         </point1text4>
-           <point1text5>
-            <![CDATA[Application <span>Infrastructure</span> Composability
-            ]]>
-         </point1text5>
-           <point1text6>
-            <![CDATA[Software-defined Agility
-            ]]>
-         </point1text6>
-           <point1text7>
-            <![CDATA[Network Interconnect<span>Adaptive Overlay Network</span>
-            ]]>
-         </point1text7>
-           <point1text8>
-            <![CDATA[Compute Block<span>Spark Hypervisor</span>
-            ]]>
-         </point1text8>
-           <point1text9>
-            <![CDATA[Storage Block<span>Elastic Flash</span>
-            ]]>
-         </point1text9>
-          <point1text10>
-            <![CDATA[Network
-            ]]>
-         </point1text10>
-          <point1text11>
-            <![CDATA[Compute
-            ]]>
-         </point1text11>
-          <point1text12>
-            <![CDATA[Storage
-            ]]>
-         </point1text12>
-          
-         <point1text13>
-            <![CDATA[Unified Multi-site Management
-            ]]>
-         </point1text13>
-         <point1text14>
-            <![CDATA[Fully Integrated & Automated
-            ]]>
-         </point1text14>
-         <point1text15>
-            <![CDATA[Multi-tenant, Self-service
-            ]]>
-         </point1text15>
-         <point1text16>
-            <![CDATA[Application Marketplace
-            ]]>
-         </point1text16>  
-      </pointtext1>
--->
          <point2text>
          
          <point2text1>
@@ -236,7 +117,7 @@
       </point4heading>
           
          <point4text1>
-             <![CDATA[ 2x Intel® Xeon® Scalable processors with liquid-cooled cold plates
+             <![CDATA[ 2x processors with liquid-cooled cold plates
 
              ]]>
          </point4text1>
@@ -246,7 +127,7 @@
             ]]>
          </point4text2>
           <point4text3>
-            <![CDATA[ 2x Intel® Xeon® Scalable processors with liquid-cooled cold plates
+            <![CDATA[ 2x processors with liquid-cooled cold plates
 
             ]]>
          </point4text3>
@@ -260,12 +141,12 @@
             ]]>
          </point4text5>
           <point4text6>
-             <![CDATA[ PCIe Gen 5 slot
+             <![CDATA[ PCIe Gen 5 slot or 2x SSDs
 
              ]]>
          </point4text6>  
          <point4text7>
-             <![CDATA[ 2x SSDs (shown) or PCIe adapter
+             <![CDATA[ 2x SSDs (shown) or PCIe Gen 5 slot
              ]]>
          </point4text7>  
          <point4text8>
@@ -277,11 +158,11 @@
              ]]>
          </point4text9>
           <point4text10>
-             <![CDATA[ PCIe Gen 5 slot
+             <![CDATA[ PCIe Gen 5 slot or 2x SSDs
              ]]>
          </point4text10>  
           <point4text11>
-             <![CDATA[ 2x SSDs (shown) or PCIe adapter
+             <![CDATA[ 2x SSDs (shown) or PCIe Gen 5 slot
              ]]>
          </point4text11> 
 
@@ -731,11 +612,11 @@ Because water cooling removes more heat more efficiently, CPUs can run in accele
              ]]>
          </point14text2>
             <point14text3>
-             <![CDATA[ 2x Intel® Xeon® Platinum processor with liquid-cooled cold plates
+             <![CDATA[ 2x processors with liquid-cooled cold plates
              ]]>
          </point14text3>
          <point14text4>
-             <![CDATA[ 2x Intel® Xeon® Platinum processor with liquid-cooled cold plates
+             <![CDATA[ 2x processors with liquid-cooled cold plates
              ]]>
          </point14text4>
          <point14text5>
@@ -757,10 +638,9 @@ Because water cooling removes more heat more efficiently, CPUs can run in accele
         <point15text1>            
             <![CDATA[ 25 Gb SFP28 Ethernet port with shared NIC feature for Lenovo XClarity Controller
             ]]>
-<!--            Power supplies, controller and dripless water manifold connections are in the rear.-->
         </point15text1>
         <point15text2>            
-            <![CDATA[ 25 Gb SFP28 Ethernet port with shared NIC feature for Lenovo XClarity Controller
+            <![CDATA[ 25 Gb SFP28 Ethernet port
 
             ]]>
         </point15text2>

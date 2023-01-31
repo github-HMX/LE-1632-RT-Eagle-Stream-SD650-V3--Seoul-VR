@@ -42,18 +42,6 @@ function isWebGlSupported() {
         addLoader();
         SuperblazeStart(context);
        
-//        if ((navigator.userAgent.indexOf("iPhone") != -1) || ((navigator.userAgent.indexOf("Android") != -1) || (navigator.userAgent.indexOf("Mobile") != -1)) || (navigator.userAgent.indexOf('iPad') != -1) || (navigator.userAgent.indexOf('iPod') != -1)) {
-//           
-//            $("#zoomSliderContainer").css("display", "none");
-//            if ((navigator.userAgent.indexOf("iPhone") != -1) || (navigator.userAgent.indexOf("Android") != -1) || (navigator.userAgent.indexOf('iPod') != -1)) {
-//                
-//                document.location = "mobile/index.html"
-//            }
-//        } else {
-//           // $("body").css('overflow', 'hidden');
-//           //scene.forceAA(true);
-//            
-//        }
     } 
 }
 

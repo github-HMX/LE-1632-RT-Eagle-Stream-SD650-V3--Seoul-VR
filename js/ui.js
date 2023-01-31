@@ -82,30 +82,25 @@ function MatrixMultiply(mA, mB) {
 function showScene() {
     $("#onloadCopy").fadeIn(500);
     $("#menu2").addClass("active");
-
     $("#scenediv").css("visibility", "visible");
     $(".accordion").css("visibility","visible");
-    $("#rightAnim").css("display","block");
+    // $("#rightAnim").css("display","block");
     $("#lenovo_logo").css("display","block");
 	$("#ButtonController").css("opacity", "1");
     scene.groupApplyState('Reflection_ON');
     currneAnim = 2;		
-//     scene.groupApplyState('SD650_ON');
-//    scene.groupApplyState('SD650_INTERNAL_ON');
     // menu2Click();
 	startAutorot = setTimeout(function(){
 //        console.log("autoRotateCall");
             autoRotateCall();
-    }, 10);
+    }, 200);
     setTimeout(function(){
         $("#zoom_slider").slider("option", "value", 120);
         $('#transparentPatch').css('display','none');
         $('#transPatch').css('display','none');
         $("#loaderlogo").fadeIn(500);
         $("#loaderlogo").fadeIn(500);
-        
         $("#point14text").css('display', 'block');
-        
     },500);
       
     scene.clearRefine();
